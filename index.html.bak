@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang= "PT-PT">
+
+	<head>
+	
+		<meta charset = "UTF-8" />
+		<meta name = "viewport" content= "width = device-width, inicial-scale = 1.0" />
+		<link rel= "stylesheet" type= "text/css" href= "css/style.css" />
+		
+		<!-- Google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;700&display=swap" rel="stylesheet">
+		
+		<!-- Link css principal -->
+		<title> Dev Contabil </title>
+	
+	</head>
+	
+	<body>
+		
+		<div class= "caixa-superior">
+			<div class= "cabecalho">
+			
+				<h2 class="titulo-cabecalho"> Dev Contabil </h2>
+			
+				<a class= "link-cabecalho" href= "#"> Quem somos </a>
+				<a class= "link-cabecalho" href= "#"> Serviços </a>
+				<a class= "link-cabecalho" href= "#"> Contactos </a>
+			
+			</div>
+			
+			<h1> Dev Contabil </h1>
+			
+			<form>
+				<h2 class= "titulo-formulario"> Entre em Contacto </h2>
+				<label>
+					Nome:
+					<input type= "text" name= "nome" id= "cnome" placeholder= "seuemail@gmail.com" />
+				</label>
+				
+				<label>
+					E-mail:
+					<input type= "email" name= "email" id= "cemail" placeholder= "Digite o seu verdadeiro email"/>
+				</label>
+				
+				<label>
+					Fale Connosco:
+					<textarea> Deixe a sua mensagem aqui </textarea>
+				</label>
+				
+				<button> Enviar </button>
+			
+			</form>
+			
+		</div>
+		
+		<h2 class= "titulo-meio"> Nossos Serviços </h2>
+		<div class= "caixa-central">
+			<div class= "card">
+				<h3 class= "titulo-card"> Contabilidade Completa </h3>
+				<ul>
+					<li><a href= "#"> Item 1 </a></li>
+					<li><a href= "#"> Item 2 </a></li>
+					<li><a href= "#"> Item 3 </a></li>
+					<li><a href= "#"> Item 4 </a></li>
+						<li><a href= "#"> Item 5 </a></li>
+				</ul>
+			</div>
+			
+			<div class= "card">
+				<h3 class= "titulo-card"> Cuidamos do seu Negócio </h3>
+				<ul>
+					<li><a href= "#"> Item 1 </a></li>
+					<li><a href= "#"> Item 2 </a></li>
+					<li><a href= "#"> Item 3 </a></li>
+					<li><a href= "#"> Item 4 </a></li>
+					<li><a href= "#"> Item 5 </a></li>
+				</ul>
+			</div>
+			
+			<div class= "card">
+				<h3 class= "titulo-card"> Cuidamos de Você </h3>
+				<ul>
+					<li><a href= "#"> Item 1 </a></li>
+					<li><a href= "#"> Item 2 </a></li>
+					<li><a href= "#"> Item 3 </a></li>
+					<li><a href= "#"> Item 4 </a></li>
+					<li><a href= "#"> Item 5 </a></li>
+				</ul>
+			</div>
+			
+		</div>
+		
+		<div class= "caixa-inferior">
+			
+			<h3 class= "titulo-inferior"> Sobre nós </h3>
+			<p class= "paragrafo-inferior">
+				O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada. Foi popularizada nos anos 60 com a disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e mais recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum.<br>
+				O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada. Foi popularizada nos anos 60 com a disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e mais recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum.<br>
+				O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada. Foi popularizada nos anos 60 com a disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e mais recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum.<br>
+			</p>
+			
+		</div>
+		
+		
+	</body>
+
+</html>

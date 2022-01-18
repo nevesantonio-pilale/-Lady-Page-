@@ -1,0 +1,163 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+a {
+	text-decoration: none;
+}
+
+/* ESTILIZANDO O CABEÇALHO */
+
+.cabecalho {
+	padding-top: 25px;
+	padding-left: 35px;
+}
+
+
+.caixa-superior {
+	background-image: url(../fundo.png);
+	height: 90vh;
+	margin-bottom: 60px;
+}
+
+.titulo-cabecalho {
+	font-size: 24px;
+	color: #FFFFFF;
+	display: inline;
+	margin-right: 100px;
+}
+
+
+.link-cabecalho {
+	font-size: 16px;
+	color: #FFFFFF;
+	display: inline;
+	margin-left: 20px;
+	cursor: poiter;
+}
+
+h1 {
+	font-size: 58px;
+	color: #FFFFFF;
+	position: relative;
+	top: 450px;
+	left: 35px;
+}
+
+/* ESTILIZANDO O O FORMULARIO */
+
+form {
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	float: right;
+	padding: 40px;
+	margin-right: 30px;
+}
+
+input {
+	display: block;
+	background-color; #F9F9F9;
+	border: 1px solid #E6E6E6;
+	border-radius: 5px;
+	width: 250px;
+	height: 40px;
+	padding-left: 10px;
+}
+
+textarea {
+	display: block;
+	width: 250px;
+	height: 80px;
+	background-color; #F9F9F9;
+	border: 1px solid #E6E6E6;
+	margin-bottom: 30px;
+	padding-left: 10px;
+}
+
+.titulo-formulario {
+	font-size: 24px;
+	color: #252B42;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+label {
+	font-size: 18px;
+	color: #252B42;
+	border-bottom: 10px;
+}
+
+button {
+	width: 250px;
+	height: 40px;
+	cursor: poiter;
+	border: none;
+	border-radius: 5px;
+	background-color: #40BB15;
+	color: #FFFFFF;
+	position: relative;
+	top:
+}
+
+/* ESTILIZANDO OS NOSSOS SERVIÇOS */
+
+.caixa-central {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-bottom: 50px;
+}
+
+.titulo-meio {
+	font-size: 40px;
+	color: #252B42;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.card {
+	width: 300px;
+	background-color: #FFFFFF;
+	border: 1px solid #A9D6FF;
+	border-radius: 10px 10px 0 0;
+}
+
+.titulo-card {
+	background-color: #219653;
+	color: #FFFFFF;
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px 10px 0 0;
+}
+
+ul {
+	padding: 20px;
+	list-style: none;
+}
+
+ul li {
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+
+/* ESTILIZANDO O sobre nós */
+
+.caixa-inferior {
+	background-color: #252B42;
+}
+
+.titulo-inferior {
+	font-size: 40px;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.paragrafo-inferior {
+	color: #FFFFFF;
+	font-size: 18px;
+	text-align: center;
+	padding: 20px 50px 50px 50px;
+}
